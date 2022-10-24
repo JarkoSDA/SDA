@@ -2,10 +2,11 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("wpisz swoje imie");
-        String name=sc.nextLine();
-        int age= 100;
-        System.out.println("Hello " + name +" mam lat " + age);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("podaj pierwsza wartosc");
+        int number1 = sc.nextInt();
+        System.out.print("podaj druga wartosc");
+        int number2 = sc.nextInt();
+        System.out.println("Wynik to:" + (number1 + number2 ));
     }
 }
